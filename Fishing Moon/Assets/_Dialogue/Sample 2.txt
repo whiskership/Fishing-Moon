@@ -1,0 +1,89 @@
+<open> Hello.
+Choose a sample.
+	<option> Same line open.
+		<open>Animal?
+			<option> Cat!
+				Correct! End </option>
+			<option> A
+				Incorrect! End </option>
+		</open>
+	</option>
+	<option> Long paragraph then open.
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		<open> Long paragraph ended!
+		Planet?
+			<option> Jupiter!
+				Correct! End </option>
+			<option> Lincoln 
+				Incorrect! End </option>
+		</open>
+	</option>
+	<option> Branching dialogue.
+		Preparing branching dialogue.
+		
+		
+		<open> Color?
+			<option> Giraffe.
+				This is the wrong answer!
+				<open> More testing?
+					<option> Yes!
+						<open>Country?
+							<option> Germany
+								Correct! End. </option>
+							<option> Sun glasses!
+								Incorrect!
+								
+								
+								<open> More questions?
+									<option> Yes!
+										<open> What color is the sky
+										at daytime?
+											<option> Red!
+												Incorrect. End. </option>
+											<option> Blue!
+												Correct. End. </option>
+										</open>
+									</option>
+									<option> No!
+										Understood! End! </option>
+								</open>
+							</option>
+						</open>
+					</option>
+					<option> No!
+						Understood! End! </option>
+				</open>
+			</option>
+			<option> Turquoise.
+				Correct! End </option>
+		</open>
+	</option>
+	<option> Normal paragraph. 
+		Jesff 
+		sdfsdf
+		sdfsdf</option>
+	<option> Six questions!
+		<open> Numbers!? 
+			<option> 1
+				11 </option>
+			<option> 2
+				22 </option>
+			<option> 3
+				33 </option>
+			<option> 4
+				44 </option>
+			<option> 5
+				55 </option>
+			<option> 6
+				66 </option>
+		</open>
+	</option>
+</open>

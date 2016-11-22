@@ -1,0 +1,12 @@
+Hi this is sample text!
+
+
+<open> Please choose a number!
+	<option> One!
+		Good job, one is a number. </option>
+	<option> A
+		Wrong, A is not a number.  </option>
+	<option> Sandwich!
+		Wrong, sandwich is not a number. </option>	
+</open>
+

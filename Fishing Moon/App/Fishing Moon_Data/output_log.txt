@@ -1,0 +1,144 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  1.717 seconds
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Alex\Dropbox\Fishing Moon\App\Fishing Moon_Data\Managed\System.dll (this message is harmless)
+desktop: 3200x1800 60Hz; virtual: 3200x1800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.824139 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.RefreshGrid () [0x00000] in <filename unknown>:0 
+  at Grid.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Grid.NodeFromWorldPoint (Vector2 worldPosition) [0x00000] in <filename unknown>:0 
+  at Pathfinding.FindPath (Vector2 startPos, Vector2 targetPos) [0x00000] in <filename unknown>:0 
+  at Pathfinding_Cursor+<FollowPathCR>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Pathfinding_Cursor:FollowPath(Vector2, Vector2)
+Pathfinding_Cursor:Update()
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 221c -> priority: 1 
